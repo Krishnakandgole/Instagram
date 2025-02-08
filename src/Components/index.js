@@ -8,7 +8,7 @@ export {
     Header,
     Profile,
     Message,
-    SavedPost,
+    // SavedPost,
     Login,
     Signup
 }

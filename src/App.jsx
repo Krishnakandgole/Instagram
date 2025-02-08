@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import './App.css'
-import { Header, Login, Message, Profile, SavedPost, Signup } from './Components';
+import { Header, Login, Message, Profile,  Signup } from './Components';
 import { Create, Explore, Home, Notification, Reels, Search } from './Pages';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './FirebaseAuth/FirebaseAuth';
